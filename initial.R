@@ -12,7 +12,6 @@ url <- "https://www.theguardian.com/environment/2015/jan/08/mayors-failure-clean
 try(html_document <- read_html(url))
 print(html_document)
 
-//*[contains(concat( " ", @class, " " ), concat( " ", "content__headline", " " ))]
 
 title_xpath <- "//h1[contains(@class, 'content__headline')]"
 title_text <- html_document %>%
