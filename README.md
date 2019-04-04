@@ -1,2 +1,2 @@
 # Text-mining
-test mining from web
+text mining from web
